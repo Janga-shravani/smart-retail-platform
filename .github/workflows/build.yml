@@ -31,8 +31,8 @@ jobs:
    - name: Install Dependencies
 
      run: |
+       cd services/catelog-service
 
-       cd services/catalog-service
 
        npm install
 
@@ -48,6 +48,6 @@ jobs:
 
      run: |
 
-       cd services/catalog-service
+       cd services/catelog-service
 
        docker build -t catalog-service:ci .
