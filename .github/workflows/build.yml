@@ -40,7 +40,7 @@ jobs:
 
      run: |
 
-       cd services/catalog-service
+       cd services/catelog-service
 
        npm test
 
