@@ -53,7 +53,7 @@ jobs:
     # UPDATED: Build and Push the image to Docker Hub
    - name: Build and Push Docker Image
      run: |
-        cd services/catalog-service
+        cd services/catelog-service
         # Define image tags using your Docker Hub username
         IMAGE_NAME="${{ secrets.DOCKERHUB_USERNAME }}/catalog-service"
         VERSION_TAG="${{ github.run_number }}"
