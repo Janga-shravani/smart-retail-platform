@@ -37,7 +37,7 @@ jobs:
 
        docker build \
        -t ${{ secrets.ACR_LOGIN_SERVER }}/catalog-service:${{ github.run_number }} \
-       ./services/catalog-service
+       ./services/catelog-service
 
    - name: Push Catalog Image
 
